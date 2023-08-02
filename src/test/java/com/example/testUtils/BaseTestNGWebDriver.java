@@ -7,6 +7,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,31 +19,48 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 
 		public class BaseTestNGWebDriver {
 		protected WebDriver driver ;
+		public static org.apache.logging.log4j.Logger log = LogManager.getLogger();
+		
+		@BeforeSuite
+	    public void setUp() {
+	        if (driver == null) {
+	            log.info("Hello World!");
+	        }
+	    }
+
+	    @AfterSuite
+	    public void tearDown() {
+	        log.info("Goodbye!");
+	        if (driver != null) {
+	            driver.quit();
+	        }
+	    }
 		
 		public void getDeviceDetailsDateAndTimeOfRun() {
 			Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
 			String browserName = caps.getBrowserName().toLowerCase();
 	        String OS = caps.getPlatformName().toString();
 	        String BV = caps.getBrowserVersion().toString();
-	        System.out.println("OS: " + OS + ", Browser: " + browserName + " Browser version " + BV);
+	        log.info("OS: " + OS + ", Browser: " + browserName + " Browser version " + BV);
 	        
 	        if (OS.contains("win") || OS.contains("mac") || OS.contains("nix")) {
-	            System.out.println("Device Type: Desktop/Laptop");
+	            log.info("Device Type: Desktop/Laptop");
 	        } else if (OS.contains("android") || OS.contains("ios")) {
-	            System.out.println("Device Type: Mobile Device");
+	            log.info("Device Type: Mobile Device");
 	        } else {
-	            System.out.println("Device Type: Unknown");
+	            log.info("Device Type: Unknown");
 	        }
 	        
 	        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	        Date currentDate = new Date();
 	        String formattedDate = sdf.format(currentDate);
-	        System.out.println("Date and Time of Run: " + formattedDate);
+	        log.info("Date and Time of Run: " + formattedDate);
 		}
 	
 
@@ -55,7 +74,7 @@ import org.testng.annotations.AfterTest;
 		            }
 		            properties.load(inputStream);
 		            String browserPreference = properties.getProperty("selenium.browser");
-		            System.out.println("Browser preference: " + browserPreference);
+		            log.info("Browser preference: " + browserPreference);
 		            inputStream.close();
 		            
 		            if (browserPreference.equalsIgnoreCase("chrome")) {
@@ -107,24 +126,15 @@ import org.testng.annotations.AfterTest;
 			    	FirefoxOptions options = new FirefoxOptions();
 			    	options.setProfile(profile);
 			        WebDriver driver = new FirefoxDriver(options);
-			        System.out.println("Firefox driver session created successfully.");
+			        log.info("Firefox driver session created successfully.");
 			        return driver;
 			    } catch (Exception e) {
 			        e.printStackTrace();
-			        System.out.println("Error while initializing Firefox driver: " + e.getMessage());
+			        log.info("Error while initializing Firefox driver: " + e.getMessage());
 			        return null;
 			    }
 			}
 		
-		
-			
-			@AfterTest()
-			public void closeBrowser() {
-				if (driver != null) {
-					driver.quit();
-					System.out.println("Closed the browser");
-				}
-			}
    
 
 }

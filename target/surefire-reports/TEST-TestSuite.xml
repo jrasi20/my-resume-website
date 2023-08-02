@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="46.501" tests="7" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="69.514" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,13 +7,13 @@
     <property name="webdriver.chrome.driver" value="./drivers/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.9.3\boot\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.class.path" value="C:/Program Files/Maven/apache-maven-3.9.3/boot/plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="America/New_York"/>
-    <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.9.3/conf"/>
+    <property name="maven.conf" value="C:/Program Files/Maven/apache-maven-3.9.3/conf"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -22,7 +22,7 @@
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.9.3"/>
-    <property name="surefire.test.class.path" value="C:\Users\janer\eclipse-workspace\my-resume-website\target\test-classes;C:\Users\janer\eclipse-workspace\my-resume-website\target\classes;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\janer\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\janer\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\janer\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\janer\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\janer\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\janer\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\janer\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\janer\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\janer\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\janer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\janer\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\janer\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\janer\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\janer\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\janer\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\janer\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\janer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\janer\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\janer\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\janer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\janer\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\janer\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\janer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\janer\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\janer\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\janer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\janer\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\janer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\janer\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\janer\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\janer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\janer\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\janer\.m2\repository\com\google\api-client\google-api-client\1.23.0\google-api-client-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\oauth-client\google-oauth-client\1.23.0\google-oauth-client-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\janer\.m2\repository\com\google\http-client\google-http-client-jackson2\1.23.0\google-http-client-jackson2-1.23.0.jar;C:\Users\janer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.3\jackson-core-2.1.3.jar;C:\Users\janer\.m2\repository\com\google\guava\guava-jdk5\17.0\guava-jdk5-17.0.jar;C:\Users\janer\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.23.0\google-oauth-client-jetty-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.23.0\google-oauth-client-java6-1.23.0.jar;C:\Users\janer\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\janer\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\janer\.m2\repository\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar;C:\Users\janer\.m2\repository\com\google\apis\google-api-services-sheets\v4-rev493-1.23.0\google-api-services-sheets-v4-rev493-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\http-client\google-http-client-gson\1.43.3\google-http-client-gson-1.43.3.jar;C:\Users\janer\.m2\repository\com\google\http-client\google-http-client\1.43.3\google-http-client-1.43.3.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\janer\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\janer\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\janer\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\janer\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\janer\.m2\repository\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar;C:\Users\janer\.m2\repository\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\janer\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\janer\eclipse-workspace\my-resume-website\target\test-classes;C:\Users\janer\eclipse-workspace\my-resume-website\target\classes;C:\Users\janer\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\janer\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\janer\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\janer\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\janer\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\janer\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\janer\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\janer\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\janer\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\janer\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\janer\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\janer\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\janer\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\janer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\janer\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\janer\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\janer\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\janer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\janer\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\janer\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\janer\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\janer\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\janer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\janer\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\janer\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\janer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\janer\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\janer\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\janer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\janer\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\janer\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\janer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\janer\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\janer\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\janer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\janer\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\janer\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\janer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\janer\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\janer\.m2\repository\com\google\api-client\google-api-client\1.23.0\google-api-client-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\oauth-client\google-oauth-client\1.23.0\google-oauth-client-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\janer\.m2\repository\com\google\http-client\google-http-client-jackson2\1.23.0\google-http-client-jackson2-1.23.0.jar;C:\Users\janer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.3\jackson-core-2.1.3.jar;C:\Users\janer\.m2\repository\com\google\guava\guava-jdk5\17.0\guava-jdk5-17.0.jar;C:\Users\janer\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.23.0\google-oauth-client-jetty-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.23.0\google-oauth-client-java6-1.23.0.jar;C:\Users\janer\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\janer\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\janer\.m2\repository\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar;C:\Users\janer\.m2\repository\com\google\apis\google-api-services-sheets\v4-rev493-1.23.0\google-api-services-sheets-v4-rev493-1.23.0.jar;C:\Users\janer\.m2\repository\com\google\http-client\google-http-client-gson\1.43.3\google-http-client-gson-1.43.3.jar;C:\Users\janer\.m2\repository\com\google\http-client\google-http-client\1.43.3\google-http-client-1.43.3.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\janer\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\janer\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\janer\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\janer\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\janer\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\janer\.m2\repository\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar;C:\Users\janer\.m2\repository\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\janer\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\janer"/>
     <property name="user.language" value="en"/>
@@ -55,302 +55,155 @@
     <property name="java.version" value="11.0.19"/>
     <property name="user.dir" value="C:\Users\janer\eclipse-workspace\my-resume-website"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\janer\eclipse-workspace\my-resume-website"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/janer/eclipse-workspace/my-resume-website"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Users\janer\AppData\Local\Microsoft\WindowsApps;C:\Users\janer\Downloads\pktriot-0.15.2.win64\pktriot-0.15.2;C:\Users\janer\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\janer\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\janer\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\janer\AppData\Local\Microsoft\WindowsApps;C:\Users\janer\Downloads\pktriot-0.15.2.win64\pktriot-0.15.2;C:\Users\janer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
-    <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.9.3\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:/Program Files/Maven/apache-maven-3.9.3/bin/m2.conf"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.9.3\lib\jansi-native"/>
+    <property name="library.jansi.path" value="C:/Program Files/Maven/apache-maven-3.9.3/lib/jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testDownloadResume" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.253">
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:24
+  <testcase name="testDownloadResume" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.324">
+    <system-out><![CDATA[[INFO ] 2023-08-02 02:09:28,330 com.example.testUtils.BaseTestNGWebDriver:33 - Hello World!
+[INFO ] 2023-08-02 02:09:28,375 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:09:28,375 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:09:30,376 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:09:30,980 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:09:30,985 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:09:30,988 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:09:30,988 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:09:30
+testDownloadResume test case started
+[INFO ] 2023-08-02 02:09:30,988 com.example.webdriverTests.ResumeAcceptanceTests:56 - This test will navigate to the contact tab, verify if all contact details are present, and will click on the download resume to download Resume.docx and will verify if the file got downloaded successfully.
 File found in the download directory: C:\Users\janer\Downloads\Resume (1).docx
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 01, 2023 11:42:22 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Aug 02, 2023 2:09:28 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:09:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testRedirectToCompanyLink" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="7.15">
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:29
+  <testcase name="testRedirectToCompanyLink" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="14.531">
+    <system-out><![CDATA[The name of the testcase passed is :testDownloadResume
+[INFO ] 2023-08-02 02:09:34,562 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:09:34,562 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:09:35,639 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:09:36,402 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:09:36,402 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:09:36,402 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:09:36,402 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:09:36
+testRedirectToCompanyLink test case started
+[INFO ] 2023-08-02 02:09:36,402 com.example.webdriverTests.ResumeAcceptanceTests:73 - This test will go to the company name given under work experiences section and will verify if clicking on the company names redirects to company websites.Upon successful validation, it again redirects to the main resume website page
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2023 11:42:27 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 2:09:34 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:09:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testRedirectToLinkedIn" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="2.796">
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:37
+  <testcase name="testRedirectToLinkedIn" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="2.623">
+    <system-out><![CDATA[The name of the testcase passed is :testRedirectToCompanyLink
+[INFO ] 2023-08-02 02:09:51,227 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:09:51,227 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:09:52,331 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:09:52,902 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:09:52,902 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:09:52,902 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:09:52,902 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:09:52
+testRedirectToLinkedIn test case started
+[INFO ] 2023-08-02 02:09:52,914 com.example.webdriverTests.ResumeAcceptanceTests:92 - This test will go to the contacts tab, look for the presence of linkedin url which if present will click and test that redirect to linkedIn was successful.Upon successful validation, it again redirects to the main resume website page.
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2023 11:42:36 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 2:09:51 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:09:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testScrollToTheTop" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.18">
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:42
+  <testcase name="testScrollToTheTop" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.221">
+    <system-out><![CDATA[The name of the testcase passed is :testRedirectToLinkedIn
+[INFO ] 2023-08-02 02:09:55,711 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:09:55,711 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:09:56,791 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:09:57,389 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:09:57,389 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:09:57,397 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:09:57,397 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:09:57
+testScrollToTheTop test case started
+[INFO ] 2023-08-02 02:09:57,397 com.example.webdriverTests.ResumeAcceptanceTests:184 - Verify that clicking on 'Scroll to the top button' takes user to the top of the webpage
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2023 11:42:40 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 2:09:55 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:09:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testSkillsTab" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="0.328">
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:47
+  <testcase name="testSkillsTab" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="0.317">
+    <system-out><![CDATA[The name of the testcase passed is :testScrollToTheTop
+[INFO ] 2023-08-02 02:10:00,808 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:10:00,808 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:10:01,777 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:10:02,380 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:10:02,380 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:10:02,380 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:10:02,380 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:10:02
+testSkillsTab test case started
+[INFO ] 2023-08-02 02:10:02,384 com.example.webdriverTests.ResumeAcceptanceTests:109 - This test will go to the skills tab, and verify that a target skill is present in the skill section.Target skill to be validated needs to be given in the properties file so it can be read.
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2023 11:42:45 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 2:10:00 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:10:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testSubmitContactInformation" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.143">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=115.0.5790.110)&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f44d302aa8482ca424c61e14cbaa6b42, findElement {using=id, value=submitButton}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\janer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f44d302aa8482ca424c61e14cbaa6b42" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f44d302aa8482ca424c61e14cbaa6b42, findElement {using=id, value=submitButton}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\janer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f44d302aa8482ca424c61e14cbaa6b42
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy39.isDisplayed(Unknown Source)
-	at com.example.pageObjects.ResumeTestPageObjects.verifyContactSectionElements(ResumeTestPageObjects.java:263)
-	at com.example.pageObjects.ResumeTestPageObjects.submitContactInfoWithIncorrectData(ResumeTestPageObjects.java:314)
-	at com.example.webdriverTests.ResumeAcceptanceTests.testSubmitContactInformation(ResumeAcceptanceTests.java:137)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:137)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:148)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:88)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:91)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1055)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:871)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
-	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
-	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
-]]></failure>
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:49
+  <testcase name="testSubmitContactInformation" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="26.037">
+    <system-out><![CDATA[The name of the testcase passed is :testSkillsTab
+[INFO ] 2023-08-02 02:10:02,832 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:10:02,832 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:10:03,798 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:10:04,349 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:10:04,349 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:10:04,349 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:10:04,349 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:10:04
+testSubmitContactInformation test case started
+[INFO ] 2023-08-02 02:10:04,452 com.example.webdriverTests.ResumeAcceptanceTests:162 - To submit contact name, email, message with invalid data(example. invalid email) and verifying that error checks are in place to prohibit submission of invalid entries.
+Validation Passed: Error message is displayed on the page prompting user to input valid email address.
+Error Message: Please include an '@' in the email address. 'jerrie1956com' is missing an '@'.
+[INFO ] 2023-08-02 02:10:10,952 com.example.webdriverTests.ResumeAcceptanceTests:165 - Test scenario of submitting contactinfo which have required values. Verify error checks are in place to prohibit submission of form without contact name or contact email address.
+Validation Passed: Error message is displayed on the page prompting user to input required fields.
+Error Message: Please fill out this field.
+[INFO ] 2023-08-02 02:10:16,305 com.example.webdriverTests.ResumeAcceptanceTests:168 - Test scenario of being able to submit contact form without a message field as message is not a required field.
+[INFO ] 2023-08-02 02:10:23,613 com.example.webdriverTests.ResumeAcceptanceTests:171 - Test scenario of being able to submit contact form with long name, email and message body.
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2023 11:42:47 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 2:10:02 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:10:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testSubmitMesasge" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="14.004">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.id: msg (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: msg (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.example.pageObjects.ResumeTestPageObjects.submitContactDetails(ResumeTestPageObjects.java:258)
-	at com.example.pageObjects.ResumeTestPageObjects.testSubmitButton(ResumeTestPageObjects.java:230)
-	at com.example.webdriverTests.ResumeAcceptanceTests.testSubmitMesasge(ResumeAcceptanceTests.java:110)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:137)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:148)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:88)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:91)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1055)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:871)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
-	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
-	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9d0c32e3583d3b0a146ff7db3248737d, findElement {using=id, value=msg}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\janer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55142/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d0c32e3583d3b0a146ff7db3248737d
-	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 69 more
-]]></failure>
-    <system-out><![CDATA[Browser preference: chrome
-OS: windows, Browser: chrome Browser version 115.0.5790.110
-Device Type: Desktop/Laptop
-Date and Time of Run: 2023-08-01 11:42:53
+  <testcase name="testSubmitMesasge" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="4.363">
+    <system-out><![CDATA[The name of the testcase passed is :testSubmitContactInformation
+[INFO ] 2023-08-02 02:10:30,695 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 02:10:30,695 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 02:10:31,702 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 02:10:32,271 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 02:10:32,271 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 02:10:32,271 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 02:10:32,271 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 02:10:32
+testSubmitMesasge test case started
+[INFO ] 2023-08-02 02:10:32,277 com.example.webdriverTests.ResumeAcceptanceTests:127 - Verify if contact details and message from the user was submitted successully.The submitted contact information, is stored in a google sheet and this test will parse the information stored in the google sheet and validate if the name, email and message submitted equals the content in the google sheets
+Failed to read credentials file. InputStream is null.
+Verification Passed: Last row contains the expected user details.
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2023 11:42:52 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 2:10:30 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 01, 2023 11:42:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 2:10:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>

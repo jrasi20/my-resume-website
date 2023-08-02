@@ -2,7 +2,7 @@ package com.example.webdriverTests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -22,6 +22,8 @@ import com.example.testUtils.PropertyFileLoader;
 public class ResumeAcceptanceTests extends BaseTestNGWebDriver {
 	protected static final Logger log = LogManager.getLogger(ResumeAcceptanceTests.class);
 	protected PropertyFileLoader testData;
+	
+	
 
 	@BeforeMethod
 	public void setUpBrowser() throws Exception {
@@ -87,6 +89,7 @@ public class ResumeAcceptanceTests extends BaseTestNGWebDriver {
 	 */
 	@Test(enabled=true)
 	public void testRedirectToLinkedIn() throws Exception {
+		log.info("This test will go to the contacts tab, look for the presence of linkedin url which if present will click and test that redirect to linkedIn was successful.Upon successful validation, it again redirects to the main resume website page.");
 		String linkedinurl = testData.getProperty("linkedinUrl");
 		ResumeTestPageObjects testPage = new ResumeTestPageObjects(driver, testData.getProperty("websiteurl"),
 				testData.getProperty("title"));
@@ -103,6 +106,7 @@ public class ResumeAcceptanceTests extends BaseTestNGWebDriver {
 	
 	@Test(enabled=true)
 	public void testSkillsTab() throws Exception {
+		log.info("This test will go to the skills tab, and verify that a target skill is present in the skill section.Target skill to be validated needs to be given in the properties file so it can be read.");
 		String targetskill = testData.getProperty("targetSkill");
 		ResumeTestPageObjects testPage = new ResumeTestPageObjects(driver, testData.getProperty("websiteurl"),
 				testData.getProperty("title"));
@@ -120,6 +124,7 @@ public class ResumeAcceptanceTests extends BaseTestNGWebDriver {
 	
 	@Test(enabled=true)
 	public void testSubmitMesasge() throws Exception {
+		log.info("Verify if contact details and message from the user was submitted successully.The submitted contact information, is stored in a google sheet and this test will parse the information stored in the google sheet and validate if the name, email and message submitted equals the content in the google sheets");
 		String name = testData.getProperty("name");
 		String email = testData.getProperty("email");
 		String message = testData.getProperty("message");
@@ -153,9 +158,17 @@ public class ResumeAcceptanceTests extends BaseTestNGWebDriver {
 		String maxMessage = testData.getProperty("maxMessage");
 		ResumeTestPageObjects objectPage = new ResumeTestPageObjects(driver, testData.getProperty("websiteurl"),
 				testData.getProperty("title"));
+		
+		log.info("To submit contact name, email, message with invalid data(example. invalid email) and verifying that error checks are in place to prohibit submission of invalid entries.");
 		objectPage.submitContactInfoWithIncorrectData(name,email,message);
+		
+		log.info("Test scenario of submitting contactinfo which have required values. Verify error checks are in place to prohibit submission of form without contact name or contact email address.");
 		objectPage.submitContactInfoWithoutRequiredFields(name,email,message);
+		
+		log.info("Test scenario of being able to submit contact form without a message field as message is not a required field.");
 		objectPage.submitContactInfoWithEmptyMessageField(name,correctEmail,message);//Message field is not required field
+		
+		log.info("Test scenario of being able to submit contact form with long name, email and message body.");
 		objectPage.testContactInfoWithMaxValues(maxName, maxEmail,maxMessage );
 			
 		}
@@ -168,14 +181,18 @@ public class ResumeAcceptanceTests extends BaseTestNGWebDriver {
 	
 	@Test(enabled=true)
 	public void testScrollToTheTop() throws Exception {
+		log.info("Verify that clicking on 'Scroll to the top button' takes user to the top of the webpage");
 		ResumeTestPageObjects objectPage = new ResumeTestPageObjects(driver, testData.getProperty("websiteurl"),
 				testData.getProperty("title"));
 		objectPage.testScrollToTheTopButton();
 		
 	}
 
-	@AfterTest(alwaysRun = true) public void tearDown()
-		{ if (driver != null) {
-		driver.quit(); } }
+	@AfterMethod(alwaysRun = true)
+	public void tearDown() {
+	    if (driver != null) {
+	        driver.quit();
+	    }
+	}
 	 
 }

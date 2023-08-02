@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.example.webdriverTests.ResumeAcceptanceTests" class="method navigator-link" hash-for-method="testSubmitContactInformation">testSubmitContactInformation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.example.webdriverTests.ResumeAcceptanceTests" class="method navigator-link" hash-for-method="testSubmitMesasge">testSubmitMesasge</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -145,6 +126,16 @@
                         <a href="#" panel-name="suite-Suite" title="com.example.webdriverTests.ResumeAcceptanceTests" class="method navigator-link" hash-for-method="testSkillsTab">testSkillsTab</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.example.webdriverTests.ResumeAcceptanceTests" class="method navigator-link" hash-for-method="testSubmitContactInformation">testSubmitContactInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.example.webdriverTests.ResumeAcceptanceTests" class="method navigator-link" hash-for-method="testSubmitMesasge">testSubmitMesasge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -157,144 +148,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.example.webdriverTests.ResumeAcceptanceTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSubmitContactInformation">
-                  </a> <!-- testSubmitContactInformation -->
-                  <span class="method-name">testSubmitContactInformation</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=115.0.5790.110)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f44d302aa8482ca424c61e14cbaa6b42, findElement {using=id, value=submitButton}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\janer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f44d302aa8482ca424c61e14cbaa6b42
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy39.isDisplayed(Unknown Source)
-	at com.example.pageObjects.ResumeTestPageObjects.verifyContactSectionElements(ResumeTestPageObjects.java:263)
-	at com.example.pageObjects.ResumeTestPageObjects.submitContactInfoWithIncorrectData(ResumeTestPageObjects.java:314)
-	at com.example.webdriverTests.ResumeAcceptanceTests.testSubmitContactInformation(ResumeAcceptanceTests.java:137)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:91)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1055)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:871)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
-	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
-	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSubmitMesasge">
-                  </a> <!-- testSubmitMesasge -->
-                  <span class="method-name">testSubmitMesasge</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: msg (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.example.pageObjects.ResumeTestPageObjects.submitContactDetails(ResumeTestPageObjects.java:258)
-	at com.example.pageObjects.ResumeTestPageObjects.testSubmitButton(ResumeTestPageObjects.java:230)
-	at com.example.webdriverTests.ResumeAcceptanceTests.testSubmitMesasge(ResumeAcceptanceTests.java:110)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:91)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1055)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:871)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
-	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
-	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=115.0.5790.110)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9d0c32e3583d3b0a146ff7db3248737d, findElement {using=id, value=msg}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\janer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55142/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d0c32e3583d3b0a146ff7db3248737d
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 69 more
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -336,6 +189,20 @@ Session ID: 9d0c32e3583d3b0a146ff7db3248737d
                   <span class="method-name">testSkillsTab</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitContactInformation">
+                  </a> <!-- testSubmitContactInformation -->
+                  <span class="method-name">testSubmitContactInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitMesasge">
+                  </a> <!-- testSubmitMesasge -->
+                  <span class="method-name">testSubmitMesasge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -348,6 +215,9 @@ Session ID: 9d0c32e3583d3b0a146ff7db3248737d
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.example.testing.listeners.Listener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.example.webdriverTests.ResumeAcceptanceTests&quot;/&gt;
@@ -392,38 +262,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSubmitMesasge')
+data.setCell(0, 1, 'testSubmitContactInformation')
 data.setCell(0, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(0, 3, 14004);
+data.setCell(0, 3, 26042);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testRedirectToCompanyLink')
 data.setCell(1, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(1, 3, 7150);
+data.setCell(1, 3, 14531);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDownloadResume')
+data.setCell(2, 1, 'testSubmitMesasge')
 data.setCell(2, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(2, 3, 3252);
+data.setCell(2, 3, 4363);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testScrollToTheTop')
+data.setCell(3, 1, 'testDownloadResume')
 data.setCell(3, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(3, 3, 3184);
+data.setCell(3, 3, 3324);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testSubmitContactInformation')
+data.setCell(4, 1, 'testScrollToTheTop')
 data.setCell(4, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(4, 3, 3141);
+data.setCell(4, 3, 3221);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testRedirectToLinkedIn')
 data.setCell(5, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(5, 3, 2796);
+data.setCell(5, 3, 2633);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testSkillsTab')
 data.setCell(6, 2, 'com.example.webdriverTests.ResumeAcceptanceTests')
-data.setCell(6, 3, 328);
+data.setCell(6, 3, 321);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -450,74 +320,94 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.webdriverTests.ResumeAcceptanceTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBrowser</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">94 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDownloadResume</span>
-                <span class="method-start">2069 ms</span>
+                <span class="method-start">2707 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6037 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBrowser</span>
-                <span class="method-start">5323 ms</span>
+                <span class="method-start">6281 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRedirectToCompanyLink</span>
-                <span class="method-start">6757 ms</span>
+                <span class="method-start">8121 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22652 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBrowser</span>
-                <span class="method-start">13918 ms</span>
+                <span class="method-start">22946 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRedirectToLinkedIn</span>
-                <span class="method-start">15427 ms</span>
+                <span class="method-start">24621 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27259 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBrowser</span>
-                <span class="method-start">18225 ms</span>
+                <span class="method-start">27430 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testScrollToTheTop</span>
-                <span class="method-start">19767 ms</span>
+                <span class="method-start">29116 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32337 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBrowser</span>
-                <span class="method-start">22957 ms</span>
+                <span class="method-start">32527 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSkillsTab</span>
-                <span class="method-start">25238 ms</span>
+                <span class="method-start">34099 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBrowser</span>
-                <span class="method-start">25567 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testSubmitContactInformation</span>
-                <span class="method-start">27064 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBrowser</span>
-                <span class="method-start">30209 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testSubmitMesasge</span>
-                <span class="method-start">31641 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45649 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">45744 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">34420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">34551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSubmitContactInformation</span>
+                <span class="method-start">36068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">62414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSubmitMesasge</span>
+                <span class="method-start">63996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68359 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
