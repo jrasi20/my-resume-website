@@ -62,7 +62,7 @@ PS: If tests don't run on your browser it could be because the driver was not co
 
 ## Features
 
-The tests reside at com.example.webdriverTests.ResumeAcceptanceTests.java. Logger and Listeners have been implemented to show whcih test case is running and their corresponding status(pass/fail). Logger class also gives a brief description about the test case scenario that is running.
+The java tests reside at com.example.webdriverTests.ResumeAcceptanceTests.java. Logger and Listeners have been implemented to show whcih test case is running and their corresponding status(pass/fail). Logger class also gives a brief description about the test case scenario that is running.
 ![Alt text](image-2.png)
 
 ## Contact
@@ -71,13 +71,13 @@ You can contact me at "janerasika20@gmail.com" if you have any questions
 
 ## Test cases and Report
 
-Test cases and report are stored in /Test cases and report/Jane's test case template.xlsx
+Test cases and report are stored in /Test cases and report/Jane's test case template.xlsx. Download as .xlsx to view the file.
 Sheet1-Test cases
 Sheet2-Automation results from latest run HTML REPORT
 Sheet3- Jenkins console report
 
 
 ## Jenkins credentials
-username-janeras
-password-NewP@ssw0rd@123
+username-JenkinsUser
+password-P@ssw0rd@123
 Job name-My-Resume-Project

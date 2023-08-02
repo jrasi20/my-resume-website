@@ -2,96 +2,96 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-02T07:37:22 EDT" name="Suite" finished-at="2023-08-02T07:38:43 EDT" duration-ms="81829">
+  <suite started-at="2023-08-02T11:45:09 EDT" name="Suite" finished-at="2023-08-02T11:46:37 EDT" duration-ms="87478">
     <groups>
     </groups>
-    <test started-at="2023-08-02T07:37:22 EDT" name="Test" finished-at="2023-08-02T07:38:43 EDT" duration-ms="81829">
+    <test started-at="2023-08-02T11:45:09 EDT" name="Test" finished-at="2023-08-02T11:46:37 EDT" duration-ms="87478">
       <class name="com.example.webdriverTests.ResumeAcceptanceTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:21 EDT" name="setUp" finished-at="2023-08-02T07:37:22 EDT" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:09 EDT" name="setUp" finished-at="2023-08-02T11:45:09 EDT" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:22 EDT" name="setUpBrowser" finished-at="2023-08-02T07:37:31 EDT" duration-ms="9055" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:09 EDT" name="setUpBrowser" finished-at="2023-08-02T11:45:12 EDT" duration-ms="2684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testDownloadResume()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:31 EDT" name="testDownloadResume" finished-at="2023-08-02T07:37:35 EDT" duration-ms="3888" status="PASS">
+        <test-method signature="testDownloadResume()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:12 EDT" name="testDownloadResume" finished-at="2023-08-02T11:45:16 EDT" duration-ms="3383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadResume -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:35 EDT" name="tearDown" finished-at="2023-08-02T07:37:35 EDT" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:16 EDT" name="tearDown" finished-at="2023-08-02T11:45:16 EDT" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:35 EDT" name="setUpBrowser" finished-at="2023-08-02T07:37:37 EDT" duration-ms="1963" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:16 EDT" name="setUpBrowser" finished-at="2023-08-02T11:45:17 EDT" duration-ms="1730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testRedirectToCompanyLink()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:37 EDT" name="testRedirectToCompanyLink" finished-at="2023-08-02T07:37:52 EDT" duration-ms="14838" status="PASS">
+        <test-method signature="testRedirectToCompanyLink()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:17 EDT" name="testRedirectToCompanyLink" finished-at="2023-08-02T11:45:52 EDT" duration-ms="34556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRedirectToCompanyLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:52 EDT" name="tearDown" finished-at="2023-08-02T07:37:52 EDT" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:52 EDT" name="tearDown" finished-at="2023-08-02T11:45:52 EDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:52 EDT" name="setUpBrowser" finished-at="2023-08-02T07:37:54 EDT" duration-ms="2386" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:52 EDT" name="setUpBrowser" finished-at="2023-08-02T11:45:55 EDT" duration-ms="2517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testRedirectToLinkedIn()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:54 EDT" name="testRedirectToLinkedIn" finished-at="2023-08-02T07:37:57 EDT" duration-ms="2746" status="PASS">
+        <test-method signature="testRedirectToLinkedIn()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:55 EDT" name="testRedirectToLinkedIn" finished-at="2023-08-02T11:45:57 EDT" duration-ms="2419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRedirectToLinkedIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:57 EDT" name="tearDown" finished-at="2023-08-02T07:37:57 EDT" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:57 EDT" name="tearDown" finished-at="2023-08-02T11:45:57 EDT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:57 EDT" name="setUpBrowser" finished-at="2023-08-02T07:37:59 EDT" duration-ms="1885" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:57 EDT" name="setUpBrowser" finished-at="2023-08-02T11:45:59 EDT" duration-ms="1368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testScrollToTheTop()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:37:59 EDT" name="testScrollToTheTop" finished-at="2023-08-02T07:38:02 EDT" duration-ms="3316" status="PASS">
+        <test-method signature="testScrollToTheTop()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:45:59 EDT" name="testScrollToTheTop" finished-at="2023-08-02T11:46:02 EDT" duration-ms="3203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScrollToTheTop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:02 EDT" name="tearDown" finished-at="2023-08-02T07:38:03 EDT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:02 EDT" name="tearDown" finished-at="2023-08-02T11:46:02 EDT" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:03 EDT" name="setUpBrowser" finished-at="2023-08-02T07:38:05 EDT" duration-ms="2821" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:02 EDT" name="setUpBrowser" finished-at="2023-08-02T11:46:03 EDT" duration-ms="1370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testSkillsTab()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:05 EDT" name="testSkillsTab" finished-at="2023-08-02T07:38:06 EDT" duration-ms="701" status="PASS">
+        <test-method signature="testSkillsTab()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:03 EDT" name="testSkillsTab" finished-at="2023-08-02T11:46:04 EDT" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSkillsTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:06 EDT" name="tearDown" finished-at="2023-08-02T07:38:06 EDT" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:04 EDT" name="tearDown" finished-at="2023-08-02T11:46:04 EDT" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:06 EDT" name="setUpBrowser" finished-at="2023-08-02T07:38:09 EDT" duration-ms="3034" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:04 EDT" name="setUpBrowser" finished-at="2023-08-02T11:46:06 EDT" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testSubmitContactInformation()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:09 EDT" name="testSubmitContactInformation" finished-at="2023-08-02T07:38:36 EDT" duration-ms="26794" status="PASS">
+        <test-method signature="testSubmitContactInformation()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:06 EDT" name="testSubmitContactInformation" finished-at="2023-08-02T11:46:31 EDT" duration-ms="25187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubmitContactInformation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:36 EDT" name="tearDown" finished-at="2023-08-02T07:38:37 EDT" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:31 EDT" name="tearDown" finished-at="2023-08-02T11:46:31 EDT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:37 EDT" name="setUpBrowser" finished-at="2023-08-02T07:38:38 EDT" duration-ms="1718" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:31 EDT" name="setUpBrowser" finished-at="2023-08-02T11:46:33 EDT" duration-ms="1727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testSubmitMesasge()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:38 EDT" name="testSubmitMesasge" finished-at="2023-08-02T07:38:43 EDT" duration-ms="5002" status="PASS">
+        <test-method signature="testSubmitMesasge()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:33 EDT" name="testSubmitMesasge" finished-at="2023-08-02T11:46:37 EDT" duration-ms="4218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubmitMesasge -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T07:38:43 EDT" name="tearDown" finished-at="2023-08-02T07:38:43 EDT" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.webdriverTests.ResumeAcceptanceTests@42e4431]" started-at="2023-08-02T11:46:37 EDT" name="tearDown" finished-at="2023-08-02T11:46:37 EDT" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="86.013" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="88.429" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -57,7 +57,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Maven\apache-maven-3.9.3/bin;C:\Program Files\Java\jdk-11/bin;C:\Program Files\Java\jdk-11/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\janer\AppData\Local\Microsoft\WindowsApps;C:\Users\janer\Downloads\pktriot-0.15.2.win64\pktriot-0.15.2;;C:\Users\janer\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Maven\apache-maven-3.9.3/bin;C:\Program Files\Java\jdk-11/bin;C:\Program Files\Java\jdk-11/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\janer\AppData\Local\Microsoft\WindowsApps;C:\Users\janer\Downloads\pktriot-0.15.2.win64\pktriot-0.15.2;C:\Users\janer\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
@@ -66,142 +66,142 @@
     <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.9.3\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testDownloadResume" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.886">
-    <system-out><![CDATA[[INFO ] 2023-08-02 07:37:22,068 com.example.testUtils.BaseTestNGWebDriver:33 - Beginning test execution!
-[INFO ] 2023-08-02 07:37:22,178 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:37:22,182 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:37:30,471 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:37:31,211 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:37:31,229 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:37:31,230 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:37:31,231 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:37:31
+  <testcase name="testDownloadResume" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.384">
+    <system-out><![CDATA[[INFO ] 2023-08-02 11:45:09,947 com.example.testUtils.BaseTestNGWebDriver:33 - Beginning test execution!
+[INFO ] 2023-08-02 11:45:09,982 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:45:09,983 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:45:11,980 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:45:12,652 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:45:12,665 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:45:12,665 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:45:12,666 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:45:12
 testDownloadResume test case started
-[INFO ] 2023-08-02 07:37:31,236 com.example.webdriverTests.ResumeAcceptanceTests:56 - This test will navigate to the contact tab, verify if all contact details are present, and will click on the download resume to download Resume.docx and will verify if the file got downloaded successfully.
+[INFO ] 2023-08-02 11:45:12,670 com.example.webdriverTests.ResumeAcceptanceTests:56 - This test will navigate to the contact tab, verify if all contact details are present, and will click on the download resume to download Resume.docx and will verify if the file got downloaded successfully.
 File found in the download directory: C:\Users\janer\Downloads\Resume (1).docx
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 02, 2023 7:37:22 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Aug 02, 2023 11:45:10 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:37:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:45:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testRedirectToCompanyLink" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="14.838">
+  <testcase name="testRedirectToCompanyLink" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="34.556">
     <system-out><![CDATA[The name of the testcase passed is :testDownloadResume
-[INFO ] 2023-08-02 07:37:35,360 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:37:35,366 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:37:36,668 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:37:37,318 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:37:37,323 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:37:37,323 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:37:37,323 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:37:37
+[INFO ] 2023-08-02 11:45:16,254 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:45:16,255 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:45:17,280 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:45:17,982 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:45:17,982 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:45:17,982 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:45:17,983 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:45:17
 testRedirectToCompanyLink test case started
-[INFO ] 2023-08-02 07:37:37,323 com.example.webdriverTests.ResumeAcceptanceTests:73 - This test will go to the company name given under work experiences section and will verify if clicking on the company names redirects to company websites.Upon successful validation, it again redirects to the main resume website page
+[INFO ] 2023-08-02 11:45:17,983 com.example.webdriverTests.ResumeAcceptanceTests:73 - This test will go to the company name given under work experiences section and will verify if clicking on the company names redirects to company websites.Upon successful validation, it again redirects to the main resume website page
 ]]></system-out>
-    <system-err><![CDATA[Aug 02, 2023 7:37:35 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 11:45:16 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:37:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:45:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testRedirectToLinkedIn" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="2.746">
+  <testcase name="testRedirectToLinkedIn" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="2.419">
     <system-out><![CDATA[The name of the testcase passed is :testRedirectToCompanyLink
-[INFO ] 2023-08-02 07:37:52,428 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:37:52,428 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:37:53,782 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:37:54,814 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:37:54,814 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:37:54,814 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:37:54,814 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:37:54
+[INFO ] 2023-08-02 11:45:52,729 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:45:52,730 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:45:53,694 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:45:55,245 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:45:55,245 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:45:55,245 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:45:55,246 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:45:55
 testRedirectToLinkedIn test case started
-[INFO ] 2023-08-02 07:37:54,814 com.example.webdriverTests.ResumeAcceptanceTests:92 - This test will go to the contacts tab, look for the presence of linkedin url which if present will click and test that redirect to linkedIn was successful.Upon successful validation, it again redirects to the main resume website page.
+[INFO ] 2023-08-02 11:45:55,247 com.example.webdriverTests.ResumeAcceptanceTests:92 - This test will go to the contacts tab, look for the presence of linkedin url which if present will click and test that redirect to linkedIn was successful.Upon successful validation, it again redirects to the main resume website page.
 ]]></system-out>
-    <system-err><![CDATA[Aug 02, 2023 7:37:52 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 11:45:52 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:37:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:45:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testScrollToTheTop" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.317">
+  <testcase name="testScrollToTheTop" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="3.203">
     <system-out><![CDATA[The name of the testcase passed is :testRedirectToLinkedIn
-[INFO ] 2023-08-02 07:37:57,747 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:37:57,748 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:37:59,007 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:37:59,629 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:37:59,630 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:37:59,630 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:37:59,630 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:37:59
+[INFO ] 2023-08-02 11:45:57,776 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:45:57,776 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:45:58,608 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:45:59,143 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:45:59,143 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:45:59,143 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:45:59,144 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:45:59
 testScrollToTheTop test case started
-[INFO ] 2023-08-02 07:37:59,631 com.example.webdriverTests.ResumeAcceptanceTests:184 - Verify that clicking on 'Scroll to the top button' takes user to the top of the webpage
+[INFO ] 2023-08-02 11:45:59,144 com.example.webdriverTests.ResumeAcceptanceTests:184 - Verify that clicking on 'Scroll to the top button' takes user to the top of the webpage
 ]]></system-out>
-    <system-err><![CDATA[Aug 02, 2023 7:37:57 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 11:45:57 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:37:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:45:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testSkillsTab" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="0.701">
+  <testcase name="testSkillsTab" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="0.46">
     <system-out><![CDATA[The name of the testcase passed is :testScrollToTheTop
-[INFO ] 2023-08-02 07:38:03,126 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:38:03,127 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:38:04,359 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:38:05,944 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:38:05,945 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:38:05,945 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:38:05,947 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:38:05
+[INFO ] 2023-08-02 11:46:02,476 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:46:02,477 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:46:03,308 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:46:03,846 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:46:03,846 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:46:03,846 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:46:03,846 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:46:03
 testSkillsTab test case started
-[INFO ] 2023-08-02 07:38:05,947 com.example.webdriverTests.ResumeAcceptanceTests:109 - This test will go to the skills tab, and verify that a target skill is present in the skill section.Target skill to be validated needs to be given in the properties file so it can be read.
+[INFO ] 2023-08-02 11:46:03,861 com.example.webdriverTests.ResumeAcceptanceTests:109 - This test will go to the skills tab, and verify that a target skill is present in the skill section.Target skill to be validated needs to be given in the properties file so it can be read.
 ]]></system-out>
-    <system-err><![CDATA[Aug 02, 2023 7:38:03 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 11:46:02 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:38:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:46:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testSubmitContactInformation" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="26.794">
+  <testcase name="testSubmitContactInformation" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="25.186">
     <system-out><![CDATA[The name of the testcase passed is :testSkillsTab
-[INFO ] 2023-08-02 07:38:06,896 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:38:06,897 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:38:08,229 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:38:09,927 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:38:09,928 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:38:09,929 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:38:09,929 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:38:09
+[INFO ] 2023-08-02 11:46:04,444 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:46:04,445 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:46:05,482 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:46:06,007 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:46:06,008 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:46:06,008 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:46:06,008 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:46:06
 testSubmitContactInformation test case started
-[INFO ] 2023-08-02 07:38:10,115 com.example.webdriverTests.ResumeAcceptanceTests:162 - To submit contact name, email, message with invalid data(example. invalid email) and verifying that error checks are in place to prohibit submission of invalid entries.
+[INFO ] 2023-08-02 11:46:06,129 com.example.webdriverTests.ResumeAcceptanceTests:162 - To submit contact name, email, message with invalid data(example. invalid email) and verifying that error checks are in place to prohibit submission of invalid entries.
 Validation Passed: Error message is displayed on the page prompting user to input valid email address.
 Error Message: Please include an '@' in the email address. 'jerrie1956com' is missing an '@'.
-[INFO ] 2023-08-02 07:38:16,862 com.example.webdriverTests.ResumeAcceptanceTests:165 - Test scenario of submitting contactinfo which have required values. Verify error checks are in place to prohibit submission of form without contact name or contact email address.
+[INFO ] 2023-08-02 11:46:12,626 com.example.webdriverTests.ResumeAcceptanceTests:165 - Test scenario of submitting contactinfo which have required values. Verify error checks are in place to prohibit submission of form without contact name or contact email address.
 Validation Passed: Error message is displayed on the page prompting user to input required fields.
 Error Message: Please fill out this field.
-[INFO ] 2023-08-02 07:38:22,519 com.example.webdriverTests.ResumeAcceptanceTests:168 - Test scenario of being able to submit contact form without a message field as message is not a required field.
-[INFO ] 2023-08-02 07:38:29,799 com.example.webdriverTests.ResumeAcceptanceTests:171 - Test scenario of being able to submit contact form with long name, email and message body.
+[INFO ] 2023-08-02 11:46:17,887 com.example.webdriverTests.ResumeAcceptanceTests:168 - Test scenario of being able to submit contact form without a message field as message is not a required field.
+[INFO ] 2023-08-02 11:46:24,356 com.example.webdriverTests.ResumeAcceptanceTests:171 - Test scenario of being able to submit contact form with long name, email and message body.
 ]]></system-out>
-    <system-err><![CDATA[Aug 02, 2023 7:38:06 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 11:46:04 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:38:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:46:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testSubmitMesasge" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="5.002">
+  <testcase name="testSubmitMesasge" classname="com.example.webdriverTests.ResumeAcceptanceTests" time="4.218">
     <system-out><![CDATA[The name of the testcase passed is :testSubmitContactInformation
-[INFO ] 2023-08-02 07:38:37,044 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
-[INFO ] 2023-08-02 07:38:37,044 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
-[INFO ] 2023-08-02 07:38:38,198 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
-[INFO ] 2023-08-02 07:38:38,762 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
-[INFO ] 2023-08-02 07:38:38,762 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
-[INFO ] 2023-08-02 07:38:38,762 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
-[INFO ] 2023-08-02 07:38:38,762 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 07:38:38
+[INFO ] 2023-08-02 11:46:31,368 com.example.webdriverTests.ResumeAcceptanceTests:31 - Get the browser preference from the TestConfig.properties 
+[INFO ] 2023-08-02 11:46:31,368 com.example.testUtils.BaseTestNGWebDriver:77 - Browser preference: chrome
+[INFO ] 2023-08-02 11:46:32,483 com.example.webdriverTests.ResumeAcceptanceTests:37 - Navigate to the Resume webpage
+[INFO ] 2023-08-02 11:46:33,095 com.example.webdriverTests.ResumeAcceptanceTests:41 - Get the System/device/browser information along with date and time of automation run
+[INFO ] 2023-08-02 11:46:33,095 com.example.testUtils.BaseTestNGWebDriver:50 - OS: windows, Browser: chrome Browser version 115.0.5790.110
+[INFO ] 2023-08-02 11:46:33,095 com.example.testUtils.BaseTestNGWebDriver:53 - Device Type: Desktop/Laptop
+[INFO ] 2023-08-02 11:46:33,095 com.example.testUtils.BaseTestNGWebDriver:63 - Date and Time of Run: 2023-08-02 11:46:33
 testSubmitMesasge test case started
-[INFO ] 2023-08-02 07:38:38,762 com.example.webdriverTests.ResumeAcceptanceTests:127 - Verify if contact details and message from the user was submitted successully.The submitted contact information, is stored in a google sheet and this test will parse the information stored in the google sheet and validate if the name, email and message submitted equals the content in the google sheets
+[INFO ] 2023-08-02 11:46:33,095 com.example.webdriverTests.ResumeAcceptanceTests:127 - Verify if contact details and message from the user was submitted successully.The submitted contact information, is stored in a google sheet and this test will parse the information stored in the google sheet and validate if the name, email and message submitted equals the content in the google sheets
 Failed to read credentials file. InputStream is null.
 Verification Passed: Last row contains the expected user details.
 ]]></system-out>
-    <system-err><![CDATA[Aug 02, 2023 7:38:37 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 02, 2023 11:46:31 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 02, 2023 7:38:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 02, 2023 11:46:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
