@@ -14,6 +14,7 @@ Front-end automation to cover happy path and negative scenarios of a Resume webs
 - [Usage](#Usage)
 - [Features](#features)
 - [Contact](#contact)
+- [Testcases and Report](#testcasesandreports)
 
 ## Running tests
 
@@ -68,3 +69,15 @@ The tests reside at com.example.webdriverTests.ResumeAcceptanceTests.java. Logge
 
 You can contact me at "janerasika20@gmail.com" if you have any questions
 
+## Test cases and Report
+
+Test cases and report are stored in /Test cases and report/Jane's test case template.xlsx
+Sheet1-Test cases
+Sheet2-Automation results from latest run HTML REPORT
+Sheet3- Jenkins console report
+
+
+## Jenkins credentials
+username-janeras
+password-NewP@ssw0rd@123
+Job name-My-Resume-Project

@@ -30,13 +30,13 @@ import org.testng.annotations.BeforeSuite;
 		@BeforeSuite
 	    public void setUp() {
 	        if (driver == null) {
-	            log.info("Hello World!");
+	            log.info("Beginning test execution!");
 	        }
 	    }
 
 	    @AfterSuite
 	    public void tearDown() {
-	        log.info("Goodbye!");
+	        log.info("Teardown!");
 	        if (driver != null) {
 	            driver.quit();
 	        }
